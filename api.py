@@ -99,6 +99,6 @@ def delete_user(public_id):
 
 
 if __name__ == '__main__':
-  app.run(debug=True)
+  app.run(debug=True, host='0.0.0.0')
 
 ##https://youtu.be/WxGBoY5iNXY?t=1319
